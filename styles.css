@@ -1,0 +1,180 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .main-header {
+    background: rgb(237, 180, 36);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 3rem;
+  }
+  
+  .main-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 40px 0;
+    background: #f1e4e4;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Gallery Section */
+  .gallery-section {
+    padding: 40px 0;
+    background: white;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    height:400px;
+    width: 600px;
+    max-width: 45%;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Local Attractions Section */
+  .attractions-section {
+    padding: 40px 0;
+    background: #f4f4f4;
+  }
+  
+  .attractions-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .attractions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .attraction {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin: 10px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .attraction i {
+    font-size: 40px;
+    color: #4CAF50;
+  }
+  
+  .attraction h3 {
+    margin: 20px 0;
+  }
+  
+  .attraction p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 0;
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section ul {
+    list-style: none;
+  }
+  
+  .contact-section li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section i {
+    margin-right: 10px;
+  }
+  
+  /* Footer */
+  .main-footer {
+    padding: 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .main-footer p {
+    font-size: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .gallery img {
+      max-width: 100%;
+    }
+  
+    .attractions {
+      flex-direction: column;
+    }
+  
+    .attraction {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
